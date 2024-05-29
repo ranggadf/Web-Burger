@@ -33,3 +33,7 @@ Route::get('/deskripsimenu', function () {
 Route::get('/minuman', function () {
     return view('menu_minuman');
 });
+
+Route::get('/struk', function () {
+    return view('Struk1');
+});
