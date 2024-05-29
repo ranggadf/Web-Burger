@@ -22,10 +22,14 @@ Route::get('/pencarian', function () {
     return view('pencariann');
 });
 
-Route::get('/menu', function () {
+Route::get('/makanan', function () {
     return view('menu1');
 });
 
 Route::get('/deskripsimenu', function () {
     return view('deskripsimenu');
+});
+
+Route::get('/minuman', function () {
+    return view('menu_minuman');
 });
