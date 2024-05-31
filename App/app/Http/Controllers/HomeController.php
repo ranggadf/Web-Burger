@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\web_burger;
 
 class HomeController extends Controller
 {
@@ -14,6 +15,7 @@ class HomeController extends Controller
      */
     public function showWelcome()
     {
-        return view('index');
+        $a=web_burger::all();
+        return view('beranda1',['data'=>$a]);
 }
 }
