@@ -1,18 +1,42 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('beranda1');
+});
+
+Route::get('/pesanan', function () {
+    return view('pesanan1');
+});
+
+Route::get('/transaksi', function () {
+    return view('transaksii');
+});
+
+Route::get('/pencarian', function () {
+    return view('pencariann');
+});
+
+Route::get('/makanan', function () {
+    return view('menu1');
+});
+
+Route::get('/deskripsimenu', function () {
+    return view('deskripsimenu');
+});
+
+Route::get('/minuman', function () {
+    return view('menu_minuman');
+});
+
+Route::get('/struk', function () {
+    return view('Struk1');
+});
+
+Route::get('/welcome', [HomeController::class,'showWelcome']);
