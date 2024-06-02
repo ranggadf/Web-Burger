@@ -13081,20 +13081,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="wMqz7DH16b3Gzud0"
-                    style="z-index:8;left:max(0px, calc(100% + -252.39484874px));right:-139.05863455px;bottom:0;top:max(0%, calc(50% - 105.96721032px));position:absolute;">
-                    <div id="L2dYrdM5qAgaBbxj" style="padding-top:54.14038441%;transform:rotate(0deg);">
-                        <div id="CHVkav26SGwp47Lu" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <svg id="r61AiHfrIJ33nsXt" viewBox="0 0 108.7371 58.8707" preserveAspectRatio="none"
-                                style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                <g id="ALdchcRsyL2yfk3f" style="transform:scale(1, 1);">
-                                    <path id="nscsN68aqIdM4UEU"
-                                        d="M4.44444532,0 L104.29263049,0 C106.74722986,0 108.73707581,1.98984595 108.73707581,4.44444532 L108.73707581,54.42622882 C108.7370758,56.88082818 106.74722986,58.87067413 104.29263049,58.87067413 L4.44444532,58.87067413 C1.98984595,58.87067413 0,56.88082819 0,54.42622882 L0,4.44444532 C0,1.98984595 1.98984595,0 4.44444532,0 Z"
-                                        style="fill:#d6d6d6;opacity:1.0;"></path>
-                                </g>
-                            </svg></div>
-                    </div>
-                </div>
+                
             </div>
             <div id="SidvocyqkANxLkGY" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
                 <div id="YItYsaDTTXqOng4S">
@@ -13176,31 +13163,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="MMRAp2wZXKAO9icf" style="z-index:18;">
-                            <div id="SlnKAESezINrgpH4" style="padding-top:59.2920354%;transform:rotate(0deg);">
-                                <div id="vALOPMkCj7QEV3eV"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="rnEl3Zx2msERxCtQ" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="kBg5VMb65TrR74Pa"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="xUeRDyLySV7mQRCC"
-                                                style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                              
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="pYDapgluo20BnRIT" style="z-index:21;">
-                            <div id="Thsgy7KBwQVWCYQU"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="sgcQMCBMqe8BBt7i"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                 
-                                </div>
-                            </div>
-                        </div>
+                        
+                        
                     </div>
                 </div>
                 <div id="j4HAISEQgskOMReb">
@@ -13296,53 +13260,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="iiCDGHVDIsmRTNdF" style="display:grid;position:relative;">
-                            <div id="PRfleVR9zdhzB2dU" style="z-index:2;">
-                                <div id="LIs0gnCIvtNWSXVM" style="padding-top:35.66173671%;transform:rotate(0deg);">
-                                    <div id="DKlVaUnCAIf2lZV3"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="O8F3ib9z3jzZwPfP" viewBox="0 0 41.3998 14.7639"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="F6DshxYAC40p5OgP" style="transform:scale(1, 1);">
-                                               
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="jpdNGmgTBPstWtGA" style="z-index:11;">
-                                <div id="s1X4LSoTt0uweX4Y" style="padding-top:101.25%;transform:rotate(0deg);">
-                                    <div id="PtAkMd9QfA9T7Wgt"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div id="gmL4mIBz6sT9qsPI" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="hX5gNkzFPDM6ex8d"
-                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="aMYODxof0R0QnSkI"
-                                                    style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                   
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="WHv21HxXWgxKFwn2" style="display:grid;position:relative;">
-                            <div id="w4kpxvozkRrkE5t8" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                                <div id="vipbvzYT3dzPRrcb" style="z-index:4;">
-                                    <div id="YVaPppRMSEumG6Hf" style="padding-top:10.20205409%;transform:rotate(0deg);">
-                                        <div id="x5TmJfAE5iQV4306"
-                                            style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                                id="TBMT61C0qKjJCtxS" viewBox="0 0 144.7149 14.7639"
-                                                style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                                <g id="SVycnlsjd3KXFhY0" style="transform:scale(1, 1);">
-                                                   
-                                                </g>
-                                            </svg></div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
+                        
                         <div id="Tz20IwU1ArT5vM2a" style="z-index:9;">
                             <div id="BEsUYwTN3gdRONSr" style="padding-top:92.96703297%;transform:rotate(0deg);">
                                 <div id="Es0PMnI7A4GZUCU4"

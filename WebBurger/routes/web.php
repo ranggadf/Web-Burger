@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MenuController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -40,3 +42,6 @@ Route::get('/struk', function () {
 });
 
 Route::get('/welcome', [HomeController::class,'showWelcome']);
+
+Route::get('/menu/create', [MenuController::class, 'create']);
+Route::post('/menu', [MenuController::class, 'store']);
