@@ -41,7 +41,7 @@ Route::get('/struk', function () {
     return view('Struk1');
 });
 
-Route::get('/welcome', [HomeController::class,'showWelcome']);
+Route::get('/welcome', [MenuController::class,'index']);
 
 Route::get('/menu/create', [MenuController::class, 'create']);
 Route::post('/menu', [MenuController::class, 'store']);

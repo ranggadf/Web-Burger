@@ -46,4 +46,11 @@ class MenuController extends Controller
 
         return back()->with('success', 'Menu created successfully.');
     }
+
+    public function index()
+    {
+        $menus = Menu::take(5)->get();
+        return view('beranda1', compact('menus'));
+    }
+
 }

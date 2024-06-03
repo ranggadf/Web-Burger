@@ -13085,7 +13085,8 @@
             </div>
             <div id="SidvocyqkANxLkGY" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
                 <div id="YItYsaDTTXqOng4S">
-                    <div id="fZBly1GDuAXyKUNs" style="display:grid;position:relative;">
+                <section>
+                <div id="fZBly1GDuAXyKUNs" style="display:grid;position:relative;">
                         <div id="FwCkKKES5NsZaxsb" style="z-index:15;">
                             <div id="yurCMLhKHksE0Bfn" style="padding-top:115.23109244%;transform:rotate(0deg);">
                                 <div id="nfCSz5vRsOJtoKZ5"
@@ -13166,7 +13167,12 @@
                         
                         
                     </div>
+                </section>
+                    
                 </div>
+                <section>
+                    
+                </section>
                 <div id="j4HAISEQgskOMReb">
                     <div id="zwz3ZYOZSlOPH7BU" style="display:grid;position:relative;">
                         <div id="FciDIyPHwlGmdYjg" style="z-index:1;">
@@ -13311,51 +13317,31 @@
                         </div>
                     </div>
                 </div>
-                <div id="UzYTAvvyajEW9i5L" style="z-index:6;">
-                    <div id="QhOlLBGVuF5uXmVJ" style="padding-top:54.14038441%;transform:rotate(0deg);">
+
+                
+                <div id="UzYTAvvyajEW9i5L" style="display : grid; grid-auto-flow: column; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; overflow-x: auto; white-space: nowrap; width: 1500px;">
+                 @foreach($menus as $menu)
+                    <div id="QhOlLBGVuF5uXmVJ" style="padding-top:54.14038441%;transform:rotate(0deg); position: relative;">
                         <div id="pytPbzdkbK6Gftab" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <svg id="uKrojU5NPBiaiEKO" viewBox="0 0 108.7371 58.8707"
-                                style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                <g id="G9klvHSdNkPXRftH" style="transform:scale(1, 1);">
-                                    <path id="TqLqDpbdKfk86umT"
-                                        d="M4.44444532,0 L104.29263049,0 C106.74722986,0 108.73707581,1.98984595 108.73707581,4.44444532 L108.73707581,54.42622882 C108.7370758,56.88082818 106.74722986,58.87067413 104.29263049,58.87067413 L4.44444532,58.87067413 C1.98984595,58.87067413 0,56.88082819 0,54.42622882 L0,4.44444532 C0,1.98984595 1.98984595,0 4.44444532,0 Z"
-                                        style="fill:#d6d6d6;opacity:1.0;"></path>
-                                </g>
-                            </svg></div>
+                                
+                                @if($menu->gambar)
+                                    <img src="data:image/jpeg;base64,{{ $menu->gambar }}" alt="{{ $menu->nama }}" style="display: block; border: 1px solid black; width: 300px; height: 200px;"/>
+                                @endif
+                                </div>
                     </div>
+                    @endforeach
                 </div>
-                <div id="lT2cdYJkS3KmxJUA" style="z-index:7;">
-                    <div id="FGJ2PdAtEzWsj3ho" style="padding-top:54.14038441%;transform:rotate(0deg);">
-                        <div id="HPHYsbOKedWmoZ80" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <svg id="NtfRzqnKlA5xH8ZK" viewBox="0 0 108.7371 58.8707"
-                                style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                <g id="Yem1FTXYwlA4b3Cy" style="transform:scale(1, 1);">
-                                    <path id="zdMspSDI2mYDiAhg"
-                                        d="M4.44444532,0 L104.29263049,0 C106.74722986,0 108.73707581,1.98984595 108.73707581,4.44444532 L108.73707581,54.42622882 C108.7370758,56.88082818 106.74722986,58.87067413 104.29263049,58.87067413 L4.44444532,58.87067413 C1.98984595,58.87067413 0,56.88082819 0,54.42622882 L0,4.44444532 C0,1.98984595 1.98984595,0 4.44444532,0 Z"
-                                        style="fill:#d6d6d6;opacity:1.0;"></path>
-                                </g>
-                            </svg></div>
-                    </div>
-                </div>
-                <?php 
-                $z=22;
-                foreach ($data as $baris) {
-                 $st= "z-index:".$z.";"
-                    ?>
-                <?php echo('<div id="bo5EXenuHBldW2p0" style="'.$st.'">' );?>
+                
+                <div id="bo5EXenuHBldW2p0" style="'.$st.'">
                     <div id="YvwHSbcpVS3EsS3m"
                         style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="Ug5hAl4dmyMo6nni"
                             style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="JNnccl66vo60iq8X"
-                                style="color:#000000;font-family:YAFdJt8dAY0-0;line-height:1.39487787em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                <span id="Ji7AtWVudN4NkHlZ" style="color:#000000;">Nama Makanan</span><br></p>
+                            
                         </div>
                     </div>
                 </div>
-                <?php 
-            $z++;
-            }?>
+                
 
         </section><a id="page-2" aria-hidden="true" style="visibility:hidden;"></a>
         <script src="./beranda_files/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js.download"

@@ -13,9 +13,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function showWelcome()
+    public function index()
     {
-        $a=web_burger::all();
-        return view('beranda1',['data'=>$a]);
-}
+        $menus = Menu::all();
+        return view('beranda1', compact('menus'));
+    }
 }
