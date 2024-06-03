@@ -13,9 +13,5 @@ class HomeController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function index()
-    {
-        $menus = Menu::all();
-        return view('beranda1', compact('menus'));
-    }
+    
 }
