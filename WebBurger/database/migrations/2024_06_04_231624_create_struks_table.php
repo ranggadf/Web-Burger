@@ -13,16 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('struks', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('menu_id');
-            $table->integer('jumlah');
-            $table->decimal('total', 10, 2);
-            $table->decimal('total_bayar', 10, 2);
-            $table->timestamps();
-
-            // Menambahkan foreign key constraint
-            $table->foreign('menu_id')->references('id')->on('menus');
+        Schema::table('struks', function (Blueprint $table) {
+            $table->dropColumn('total_bayar'); // Menghapus kolom total_bayar
         });
     }
 
@@ -33,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('struks');
+        Schema::table('struks', function (Blueprint $table) {
+            $table->decimal('total_bayar', 10, 2); // Jika Anda ingin memasukkan kembali kolom total_bayar ketika rollback migrasi
+        });
     }
 };

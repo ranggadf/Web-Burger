@@ -14229,34 +14229,36 @@
     document.addEventListener('DOMContentLoaded', function() {
         const tombolPesanan = document.querySelectorAll('.tombolPesanan');
 
-        tombolPesanan.forEach(button => {
+        tombolPesanan.forEach(function(button) {
             button.addEventListener('click', function(event) {
-                event.preventDefault(); // Mencegah perilaku default
-
-                const menuId = this.getAttribute('data-id-menu');
-                simpanPesanan(menuId);
+                event.preventDefault();
+                const menuId = this.getAttribute('data-menu-id');
+                const jumlah = 1; // Jumlah pesanan bisa disesuaikan di sini
+                simpanPesanan(menuId, jumlah);
             });
         });
     });
 
-    function simpanPesanan(menuId) {
-        fetch('/pesan', {
+    function simpanPesanan(menuId, jumlah) {
+        fetch('/tambah-pesanan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 'X-CSRF-TOKEN': '{{ csrf_token() }}'
             },
-            body: JSON.stringify({ menu_id: menuId })
+            body: JSON.stringify({ menu_id: menuId, jumlah: jumlah })
         })
         .then(response => response.json())
         .then(data => {
             console.log('Pesanan berhasil disimpan:', data);
+            // Tambahkan logika lain di sini jika diperlukan
         })
         .catch(error => {
             console.error('Error:', error);
         });
     }
 </script>
+
 
 
 

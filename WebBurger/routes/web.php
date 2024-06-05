@@ -20,4 +20,4 @@ Route::get('/menu/minuman', [MenuController::class, 'showMinuman']);
 
 Route::get('/menu/{id_menu}', [MenuController::class,'showDetail'])->name('menu.detail');
 
-Route::post('/pesan', [StrukController::class, 'tambahPesanan']);
+Route::post('/tambah-pesanan', [StrukController::class, 'tambahPesanan']);
