@@ -15676,8 +15676,8 @@
                                         style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
                                         <p id="AklFsS5vgbYkZmVo"
                                             style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37110553em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                            <a href="home" </a><span id="qKGgB02MHnTwLdX5"
-                                                    style="color:#ffffff;">KEMBALI</span><br></p>
+                                            <a href="welcome"><span id="qKGgB02MHnTwLdX5"
+                                                    style="color:#ffffff;">KEMBALI</span></a><br></p>
                                     </div>
                                 </div>
                             </div>
