@@ -13293,7 +13293,7 @@
                                         <div id="bTKNZBhAYJtoYEQH"
                                             style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
                                            
-                                            <button class="tombolPesanan" data-id-menu="{{ $menus->id_menu }}">
+                                            <button class="tombolPesanan" data-id-menu="{{ $menus->id_menu }}" style="background-color:transparent; border: none;">
                                                     <p id="hnKTv1SZP3Gx9OUW" style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37921523em;text-align:center;text-transform:none;letter-spacing:0em;">
                                                         <span id="PhDgIE1WG7QmSrzO" style="color:#ffffff;">MASUKKAN PESANAN</span>
                                                     </p>
