@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0098)file:///C:/Drive%20D/kuliah/smt2/pemrograman%20web/UAS%20BURGER/full%20halaman/full%20halaman.html -->
+<!-- saved from url=(0083)file:///C:/Drive%20D/kuliah/smt2/pemrograman%20web/UAS%20BURGER/full%20halaman.html -->
 <html lang="id-ID" style="--inner1Vh: 7.3px; --sbw: 17px;">
 
 <head>
@@ -719,7 +719,6 @@
             height: 100%;
             width: 400px;
             max-width: 80vw;
-            overflow: auto;
             box-sizing: border-box;
             z-index: 2;
             position: fixed;
@@ -11486,6 +11485,7 @@
             #lnZF4IlgEG01aFtY {
                 grid-area: 2 / 2 / 8 / 3;
                 position: relative;
+                height: 100px;
             }
 
             #qWQ3Ynie3eHYGJnw {
@@ -13094,7 +13094,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="d9PF2f9JuW6hlPII"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./menu_files/8b07c36502f16c947277f547db865ff4.png"
+                                                <img src="{{asset('./menu_files/8b07c36502f16c947277f547db865ff4.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
@@ -13112,7 +13112,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="tvaWanwcSxialnGm"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./menu_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png"
+                                                <img src="{{asset('./menu_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
@@ -13127,10 +13127,9 @@
                                 <div id="BXukxOafwM0Kkgqu"
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="KkCzOStgftQYznRG"
-                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                        <a href="home" </a><span id="MkVkYF98tbRPjT1z"
-                                                style="color:#000000;">Beranda</span><span id="ctoH8NAQl0y2Q5u1"
-                                                style="color:#000000;"> </span><br></p>
+                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:left;text-transform:none;letter-spacing:0em;">
+                                        <a href="welcome"><span id="MkVkYF98tbRPjT1z" style="color:#000000;">Beranda</span></a><span
+                                            id="ctoH8NAQl0y2Q5u1" style="color:#000000;"> </span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -13143,7 +13142,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="VjPmneYnABdGFvPq"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./menu_files/8af212645911fe2ab1ddb20a7d0d7cbc.png"
+                                                <img src="{{asset('./menu_files/8af212645911fe2ab1ddb20a7d0d7cbc.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
@@ -13159,34 +13158,7 @@
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="Ii0B0Sanqep8zbMC"
                                         style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809332em;text-align:justify;text-transform:none;letter-spacing:0em;">
-                                        <a href="struk" </a><span id="TKVihbxZsUqggvnB"
-                                                style="color:#000000;">Struk</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="QZiJeVA0DWdH9xbp" style="z-index:9;">
-                            <div id="IIOnrSVBcaxlzj2t" style="padding-top:59.2920354%;transform:rotate(0deg);">
-                                <div id="K24P2gvmYeRJAgG6"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="ARVyqzqgOyv9hIjy" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="uNf5eTS5OnnMhQuU"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="YlMrwrr9dD8nx7Ky"
-                                                style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="DBWOUzvxecoSnnyC" style="z-index:12;">
-                            <div id="PXEGWDXUcrG9syEp"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="Rep60Vd8oXna64ZO"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="AGOuYz7mWT5vmGxt"
-                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809332em;text-align:justify;text-transform:none;letter-spacing:0em;">
-                                        <br></p>
+                                        <a href="struk"><span id="TKVihbxZsUqggvnB" style="color:#000000;">Struk</span></a><br></p>
                                 </div>
                             </div>
                         </div>
@@ -13246,7 +13218,7 @@
                                         <svg id="WByFCMbXCpqq2Bfu" viewBox="0 0 140.5566 17.6859"
                                             preserveAspectRatio="none"
                                             style="width:100%;height:100%;opacity:0.79;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="D46811zUjTooC45E" style="transform:scale(1, 1);"></g>
+                                            
                                         </svg><svg id="vpzwhPZ67SwN3MCQ" viewBox="0 0 111.1111 19.5782"
                                             preserveAspectRatio="none"
                                             style="width:100%;height:100%;opacity:0.79;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
@@ -13272,8 +13244,7 @@
                                             style="opacity:0.79;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
                                             <p id="BUKyhl2rNwmrFfli"
                                                 style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.37110553em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                <a href="makanan" </a><span id="fSOjeTelEgbnKb4f"
-                                                        style="color:#fff;">MAKANAN</span><br>
+                                                <a href="makanan"> <span id="fSOjeTelEgbnKb4f" style="color:#fff;">MAKANAN</span></a><br>
                                             </p>
                                         </div>
                                     </div>
@@ -13318,8 +13289,8 @@
                                             style="opacity:0.79;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
                                             <p id="yjAnQSVKVGs6xgec"
                                                 style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37110553em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                <a href="minuman" </a><span id="e14bNamxYmc7mo7N"
-                                                        style="color:#ffffff;">MINUMAN</span><br></p>
+                                                <a href="minuman"><span id="e14bNamxYmc7mo7N" style="color:#ffffff;">MINUMAN</span></a><br>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -13327,7 +13298,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="Kr3KDzcZNqdgCNHJ">
+                
+                <div id="Kr3KDzcZNqdgCNHJ" style="display: flex; flex-wrap: nowrap; overflow-y: auto; max-height: 800px; height: 500px; flex-direction: column; gap:20px;scrollbar-width: none;">
+                @foreach($menus as $menu)
+                <a href="{{ route('menu.detail', ['id_menu' => $menu->id_menu]) }}">
                     <div id="b6bpYkkGopWtJDLg" style="display:grid;position:relative;">
                         <div id="lnU6hIpyI5JOdFCH" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
                             <div id="G9DmLxmiGxt3pxDa" style="z-index:20;">
@@ -13448,11 +13422,9 @@
                                                             style="clip-path:path(&#39;M5.98502785,0 L58.01497215,0 C61.32041176,0 64,2.67958824 64,5.98502785 L64,58.01497215 C64,61.32041176 61.32041176,64 58.01497215,64 L5.98502785,64 C2.67958824,64 0,61.32041176 0,58.01497215 L0,5.98502785 C0,2.67958824 2.67958824,0 5.98502785,0 Z&#39;);">
                                                             <div id="hZjt3e5Dv6oVBmdr"
                                                                 style="transform: scale(1, 1); transform-origin: 32px 32px; animation: auto ease 0s 1 normal none running none;">
-                                                                <img src="./menu_files/e60f39fd2af17313df137e18914da264.png"
-                                                                    loading="lazy"
-                                                                    srcset="images/05931b90972703401e11e8e87ebf40fa.png 302w, images/e60f39fd2af17313df137e18914da264.png 604w"
-                                                                    sizes="(max-width: 375px) 67.89750225vw, (min-width: 375.05px) and (max-width: 480px) 53.04492363vw, (min-width: 480.05px) and (max-width: 768px) 33.15307727vw, (min-width: 768.05px) and (max-width: 1024px) 24.86480795vw, (min-width: 1024.05px) 18.63950464vw"
-                                                                    style="transform:translate(-15.62130178px, 0px) rotate(0deg);transform-origin:47.62130178px 32px;width:95.24260355px;height:64px;display:block;opacity:1.0;object-fit:fill;">
+                                                                @if($menu->gambar)
+                                                                <img src="data:image/jpeg;base64,{{ $menu->gambar }}" alt="{{ $menu->nama }}" style="display: block;  width: 80px; height: 60px;"/>
+                                                                 @endif
                                                             </div>
                                                         </div>
                                                     </foreignobject>
@@ -13471,9 +13443,11 @@
                                     <div id="LpPrMZWwlKvyw2ic"
                                         style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                         <p id="I48wWaUeW9xPgvAY"
-                                            style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.3767526em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                            <span id="SVzkCRpSSQKCQxye" style="color:#000000;">Burger King
-                                                Premium</span><br></p>
+                                            style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.3767526em;text-align:left;text-transform:none;letter-spacing:0em;">
+                                            @if($menu->nama)
+                                            <span id="SVzkCRpSSQKCQxye" style="color:#000000;">{{ $menu->nama }}</span>
+                                            @endif 
+                                            <br></p>
                                     </div>
                                 </div>
                             </div>
@@ -13483,8 +13457,10 @@
                                     <div id="XG6bmtdX25Xe4AAS"
                                         style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                         <p id="ktWT9mgHSuyZcNTX"
-                                            style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.38084395em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                            <span id="yjHBEnTxB3avzSmB" style="color:#000000;">Rp. 20.000,-</span><br>
+                                            style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.38084395em;text-align:left;text-transform:none;letter-spacing:0em;">
+                                            @if ($menu->harga)
+                                            <span id="yjHBEnTxB3avzSmB" style="color:#000000;">{{$menu->harga}}</span><br>
+                                            @endif
                                         </p>
                                     </div>
                                 </div>
@@ -13496,226 +13472,19 @@
                                         style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                         <p id="s3CyXITJqEyDHJqe"
                                             style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.38212301em;text-align:justify;text-transform:none;letter-spacing:0em;">
-                                            <span id="chMe4SPRJn2XwD7G" style="color:#000000;">Deskripsi menu, bla, bla,
-                                                bla</span><br></p>
+                                            @if ($menu->deskripsi)
+                                            <span id="chMe4SPRJn2XwD7G" style="color:#000000;">{{$menu->deskripsi}}</span><br></p>
+                                            @endif
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </a>
+                    @endforeach
                 </div>
-                <div id="Rw09WIHQxRhmlwN1">
-                    <div id="HcboH4xC0m9O1KuD" style="display:grid;position:relative;">
-                        <div id="tGcPLLZukQGlGbdB" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="KNUQVyNLBFhrk3Ob" style="z-index:14;">
-                                <div id="XrvcYn0VKemRcPz0"
-                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);"><svg
-                                        id="XXSh89N04NdDusVe" viewBox="0 0 298.8972 56.281" preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="jf97Zhy5XXt4ZvZ4" style="transform:scale(1, 1);">
-                                            <path id="pauvZs7NTWrUXbxA"
-                                                d="M4.72222173,0 L294.17499506,0 C295.42740614,0 296.62852171,0.49751836 297.51411008,1.38310672 298.39969844,2.26869508 298.8972168,3.46981066 298.8972168,4.72222173 L298.8972168,51.55875742 C298.8972168,52.8111685 298.39969844,54.01228407 297.51411007,54.89787244 296.62852171,55.7834608 295.42740613,56.28097916 294.17499506,56.28097916 L4.72222173,56.28097916 C3.46981066,56.28097916 2.26869508,55.7834608 1.38310672,54.89787243 0.49751836,54.01228407 0,52.81116849 0,51.55875742 L0,4.72222173 C0,3.46981066 0.49751836,2.26869509 1.38310672,1.38310672 2.26869508,0.49751836 3.46981066,0 4.72222173,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="iX4JDCpG6pxnEIh9" viewBox="0 0 266.6667 65.1699"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="DPyg3QA2ObFvlGCZ" style="transform:scale(1, 1);">
-                                            <path id="aKNF68FGAXLThaAK"
-                                                d="M4.21301801,0 L262.45363848,0 C264.78042408,0 266.66665649,1.88623241 266.66665649,4.21301801 L266.66665649,60.95685046 C266.66665649,62.07421231 266.22278623,63.14580993 265.43269209,63.93590407 264.64259795,64.72599821 263.57100033,65.16986847 262.45363848,65.16986847 L4.21301801,65.16986847 C1.88623241,65.16986847 0,63.28363606 0,60.95685046 L0,4.21301801 C0,1.88623241 1.88623241,0 4.21301801,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="Mat4NyC56tdy40ny" viewBox="0 0 195.5556 65.1699"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="DKTx1SRoxPVJE4u4" style="transform:scale(1, 1);">
-                                            <path id="vYrAa04806hhOzZk"
-                                                d="M3.08954686,0 L192.46601039,0 C194.17232001,0 195.55555725,1.38323725 195.55555725,3.08954686 L195.55555725,62.08032161 C195.55555725,63.78663123 194.17232,65.16986847 192.46601039,65.16986847 L3.08954686,65.16986847 C1.38323724,65.16986847 0,63.78663122 0,62.08032161 L0,3.08954686 C0,1.38323724 1.38323725,0 3.08954686,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="KFqy5ngJpF8KzZnS" viewBox="0 0 124.4444 96.2281"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="BtMuSQa2wNEzWNXf" style="transform:scale(1, 1);">
-                                            <path id="OYBlTdJU9bGL9Mub"
-                                                d="M1.96607412,0 L122.47836863,0 C122.9998039,0 123.49988255,0.20713936 123.86859297,0.57584978 124.23730339,0.9445602 124.44444275,1.44463884 124.44444275,1.96607412 L124.44444275,94.2620524 C124.44444275,94.78348768 124.23730339,95.28356633 123.86859297,95.65227675 123.49988255,96.02098717 122.99980391,96.22812653 122.47836863,96.22812653 L1.96607412,96.22812653 C1.44463884,96.22812653 0.9445602,96.02098717 0.57584978,95.65227675 0.20713936,95.28356633 0,94.78348768 0,94.2620524 L0,1.96607412 C0,1.44463885 0.20713936,0.9445602 0.57584978,0.57584978 0.9445602,0.20713936 1.44463884,0 1.96607412,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="vc0sn1iFH3uKKR8m" viewBox="0 0 95.2778 96.2281"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="gUj4ChW5bteBChqD" style="transform:scale(1, 1);">
-                                            <path id="ssRLQPUkm0LAjWpC"
-                                                d="M1.50527639,0 L93.77250224,0 C94.17172636,0 94.5545993,0.15859116 94.83689338,0.44088525 95.11918747,0.72317933 95.27777863,1.10605227 95.27777863,1.50527639 L95.27777863,94.72285014 C95.27777863,95.55419133 94.60384343,96.22812653 93.77250224,96.22812653 L1.50527639,96.22812653 C0.6739352,96.22812653 0,95.55419133 0,94.72285014 L0,1.50527639 C0,0.67393519 0.6739352,0 1.50527639,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg></div>
-                            </div>
-                            <div id="WJPTFGdlwn7PrsYY" style="z-index:18;">
-                                <div id="HZ4B44D216bE0xwT" style="padding-top:93.48254011%;transform:rotate(0deg);">
-                                    <div id="vEl1NYO7zpdneu5z"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="DvpQFS0Spj1WPKeW" viewBox="0 0 47.526 44.4285"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="dRhVi6N7sdjOGu4O" style="transform:scale(1, 1);">
-                                                <path id="gcJqIRIf28lwWJx6"
-                                                    d="M4.72222204,0 L42.80377894,0 C44.05619009,0 45.25730574,0.49751839 46.14289417,1.38310681 47.02848259,2.26869523 47.52600098,3.46981089 47.52600098,4.72222204 L47.52600098,39.70629053 C47.52600098,42.31430175 45.41179016,44.42851257 42.80377894,44.42851257 L4.72222204,44.42851257 C3.46981089,44.42851257 2.26869523,43.93099418 1.38310681,43.04540576 0.49751839,42.15981734 0,40.95870168 0,39.70629053 L0,4.72222204 C0,3.46981089 0.49751839,2.26869523 1.38310681,1.38310681 2.26869523,0.49751839 3.46981089,0 4.72222204,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="rK3adWxenTgxtBfa" style="z-index:15;">
-                                <div id="pgdInz1FkPWqd73g" style="padding-top:14.42223833%;transform:rotate(0deg);">
-                                    <div id="DfUxxg4TfuqoUwx1"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="RkR9zqYpjhENUjo6" viewBox="0 0 79.177 11.4191"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="pAqhnGY3DPK04zoc" style="transform:scale(1, 1);">
-                                                <path id="zAFQ9nHz8mDf1goQ"
-                                                    d="M4.72222077,0 L74.45480407,0 C75.70721488,0 76.90833022,0.49751826 77.7939184,1.38310644 78.67950658,2.26869462 79.17702484,3.46980995 79.17702484,4.72222077 L79.17702484,6.69687808 C79.17702484,7.9492889 78.67950658,9.15040423 77.7939184,10.03599241 76.90833022,10.92158059 75.70721489,11.41909885 74.45480407,11.41909885 L4.72222077,11.41909885 C3.46980996,11.41909886 2.26869462,10.9215806 1.38310644,10.03599241 0.49751826,9.15040423 0,7.9492889 0,6.69687808 L0,4.72222077 C0,3.46980996 0.49751826,2.26869463 1.38310644,1.38310644 2.26869462,0.49751826 3.46980995,0 4.72222077,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="GumbR5d9EHNp9thU" style="z-index:16;">
-                                <div id="DgN4v5ErvqYw5KgE" style="padding-top:21.24664845%;transform:rotate(0deg);">
-                                    <div id="L9SR5Ih37IkwryUY"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="ODrPD6eBv0UGlj1w" viewBox="0 0 27.2164 5.7826"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="YGslKNBXlDh1pICw" style="transform:scale(1, 1);">
-                                                <path id="mUTAElwlYcV0oyvz"
-                                                    d="M2.891289,0 L24.32513404,0 C25.92194886,0 27.21642303,1.29447418 27.21642303,2.891289 L27.21642303,2.891289 C27.21642303,4.48810381 25.92194886,5.78257799 24.32513404,5.78257799 L2.891289,5.78257799 C1.29447418,5.78257799 0,4.48810382 0,2.891289 L0,2.891289 C0,1.29447418 1.29447418,0 2.891289,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="r02n1CcmkPmHcJqn" style="z-index:17;">
-                                <div id="Ymh1FrYq9Tn528pm" style="padding-top:7.47384557%;transform:rotate(0deg);">
-                                    <div id="YvmJRfsxPleW9dE1"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="VLplFEqhCAyMHlEM" viewBox="0 0 77.3709 5.7826"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="QyLCYluj5zT67zGn" style="transform:scale(1, 1);">
-                                                <path id="Ma9an3Z6SenOwbJr"
-                                                    d="M2.891289,0 L74.47956061,0 C76.07637543,0 77.37084961,1.29447418 77.37084961,2.891289 L77.37084961,2.891289 C77.37084961,4.48810382 76.07637543,5.78257799 74.47956061,5.78257799 L2.891289,5.78257799 C1.29447418,5.78257799 0,4.48810382 0,2.891289 L0,2.891289 C0,1.29447418 1.29447418,0 2.891289,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="ZWHA9c6VTFagfbWj">
-                    <div id="VuNxL4G42VGMZqt1" style="display:grid;position:relative;">
-                        <div id="u3IAtIOskFVfJHqb" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="AxniaaXdllRk5Udp" style="z-index:26;">
-                                <div id="f94rYYwluB83tu2W"
-                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);"><svg
-                                        id="cLPsbwdCx0HvEZox" viewBox="0 0 298.8972 42.6637" preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="XVeXyqQ7xX4n9M3Z" style="transform:scale(1, 1);">
-                                            <path id="Yr9bqDdHaEPrWe1o"
-                                                d="M4.72222173,0 L294.17499506,0 C295.42740614,0 296.62852171,0.49751836 297.51411008,1.38310672 298.39969844,2.26869508 298.8972168,3.46981066 298.8972168,4.72222173 L298.8972168,37.94150507 C298.8972168,39.19391615 298.39969844,40.39503172 297.51411007,41.28062009 296.62852171,42.16620845 295.42740613,42.66372681 294.17499506,42.66372681 L4.72222173,42.66372681 C3.46981066,42.66372681 2.26869508,42.16620845 1.38310672,41.28062008 0.49751836,40.39503172 0,39.19391614 0,37.94150507 L0,4.72222173 C0,3.46981066 0.49751836,2.26869509 1.38310672,1.38310672 2.26869508,0.49751836 3.46981066,0 4.72222173,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="HsXgQWQM61GIxEHw" viewBox="0 0 266.6667 42.9219"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="FJDIeOWZWuMJrLZa" style="transform:scale(1, 1);">
-                                            <path id="xf8gUn2fl18l9qCJ"
-                                                d="M4.21301801,0 L262.45363848,0 C264.78042408,0 266.66665649,1.88623241 266.66665649,4.21301801 L266.66665649,38.70887606 C266.66665649,41.03566166 264.78042408,42.92189407 262.45363848,42.92189407 L4.21301801,42.92189407 C3.09565616,42.92189407 2.02405854,42.47802381 1.2339644,41.68792967 0.44387026,40.89783553 0,39.82623791 0,38.70887606 L0,4.21301801 C0,1.88623241 1.88623241,0 4.21301801,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="UMLLqcewZ8gaR7Lh" viewBox="0 0 195.5556 43.7925"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="KLEYxVez1jA1lcsb" style="transform:scale(1, 1);">
-                                            <path id="RPJJFTuHHIML3qkS"
-                                                d="M3.08954686,0 L192.46601039,0 C194.17232001,0 195.55555725,1.38323725 195.55555725,3.08954686 L195.55555725,40.70295269 C195.55555725,42.4092623 194.17232,43.79249954 192.46601039,43.79249954 L3.08954686,43.79249954 C1.38323725,43.79249954 0,42.4092623 0,40.70295269 L0,3.08954686 C0,1.38323724 1.38323725,0 3.08954686,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="BFFIUpHIrMsvppJ2" viewBox="0 0 124.4444 109.1112"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="dWGrzxhnm0VLWjRS" style="transform:scale(1, 1);">
-                                            <path id="i1bFW53dlkzUyrWj"
-                                                d="M1.96607412,0 L122.47836863,0 C122.9998039,0 123.49988255,0.20713936 123.86859297,0.57584978 124.23730339,0.9445602 124.44444275,1.44463884 124.44444275,1.96607412 L124.44444275,107.14514719 C124.44444275,108.23097994 123.56420138,109.11122131 122.47836863,109.11122131 L1.96607412,109.11122131 C1.44463885,109.11122131 0.9445602,108.90408196 0.57584978,108.53537154 0.20713936,108.16666111 0,107.66658247 0,107.14514719 L0,1.96607412 C0,1.44463885 0.20713936,0.9445602 0.57584978,0.57584978 0.9445602,0.20713936 1.44463884,0 1.96607412,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg><svg id="YVegWyUY7Wfk5XdE" viewBox="0 0 95.2778 116.1841"
-                                        preserveAspectRatio="none"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                        <g id="mGImi50CrQoXvnOA" style="transform:scale(1, 1);">
-                                            <path id="W7ii8I86NEw05b4S"
-                                                d="M1.50527639,0 L93.77250224,0 C94.17172636,0 94.5545993,0.15859116 94.83689338,0.44088525 95.11918747,0.72317933 95.27777863,1.10605227 95.27777863,1.50527639 L95.27777863,114.67885905 C95.27777863,115.51020024 94.60384343,116.18413544 93.77250224,116.18413544 L1.50527639,116.18413544 C0.6739352,116.18413544 0,115.51020024 0,114.67885905 L0,1.50527639 C0,0.67393519 0.6739352,0 1.50527639,0 Z"
-                                                style="fill:#d6d6d6;opacity:1.0;"></path>
-                                        </g>
-                                    </svg></div>
-                            </div>
-                            <div id="gNCvQ3mXG6UbfHUf" style="z-index:30;">
-                                <div id="YwGqz6cUWJXd60Cp" style="padding-top:93.48254011%;transform:rotate(0deg);">
-                                    <div id="z5CDc5MfMzXd4Hf9"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="bS6rc1ayD9rZc5qn" viewBox="0 0 47.526 44.4285"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="LOwNGl5uUq6ZqO3O" style="transform:scale(1, 1);">
-                                                <path id="G6xZDsdK3EfAIMsv"
-                                                    d="M4.72222204,0 L42.80377894,0 C44.05619009,0 45.25730574,0.49751839 46.14289417,1.38310681 47.02848259,2.26869523 47.52600098,3.46981089 47.52600098,4.72222204 L47.52600098,39.70629053 C47.52600098,42.31430175 45.41179016,44.42851257 42.80377894,44.42851257 L4.72222204,44.42851257 C3.46981089,44.42851257 2.26869523,43.93099418 1.38310681,43.04540576 0.49751839,42.15981734 0,40.95870168 0,39.70629053 L0,4.72222204 C0,3.46981089 0.49751839,2.26869523 1.38310681,1.38310681 2.26869523,0.49751839 3.46981089,0 4.72222204,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="cGqEksuV3UAnvxjF" style="z-index:27;">
-                                <div id="eLAeKXv7OnGWcyb7" style="padding-top:14.42223833%;transform:rotate(0deg);">
-                                    <div id="TVUZBeijoPByGg4x"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="xxnyCkiGZ4IsK52X" viewBox="0 0 79.177 11.4191"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="mEEBzPhwDnVfCH9M" style="transform:scale(1, 1);">
-                                                <path id="Gb3249HwVcZrcxT6"
-                                                    d="M4.72222077,0 L74.45480407,0 C75.70721488,0 76.90833022,0.49751826 77.7939184,1.38310644 78.67950658,2.26869462 79.17702484,3.46980995 79.17702484,4.72222077 L79.17702484,6.69687808 C79.17702484,7.9492889 78.67950658,9.15040423 77.7939184,10.03599241 76.90833022,10.92158059 75.70721489,11.41909885 74.45480407,11.41909885 L4.72222077,11.41909885 C3.46980996,11.41909886 2.26869462,10.9215806 1.38310644,10.03599241 0.49751826,9.15040423 0,7.9492889 0,6.69687808 L0,4.72222077 C0,3.46980996 0.49751826,2.26869463 1.38310644,1.38310644 2.26869462,0.49751826 3.46980995,0 4.72222077,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="qaXLYUxuNcSgaA7R" style="z-index:28;">
-                                <div id="PMVW6nUrN2tzKOs8" style="padding-top:21.24664845%;transform:rotate(0deg);">
-                                    <div id="VtLyBlFSLAabU94H"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="rc4rNr1EuFeELgjd" viewBox="0 0 27.2164 5.7826"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="zTnbIiiDiKgUQTx0" style="transform:scale(1, 1);">
-                                                <path id="wtYaROKpvFskyRLU"
-                                                    d="M2.891289,0 L24.32513404,0 C25.92194886,0 27.21642303,1.29447418 27.21642303,2.891289 L27.21642303,2.891289 C27.21642303,4.48810381 25.92194886,5.78257799 24.32513404,5.78257799 L2.891289,5.78257799 C1.29447418,5.78257799 0,4.48810382 0,2.891289 L0,2.891289 C0,1.29447418 1.29447418,0 2.891289,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div id="ERZGICE4MW6MQkmt" style="z-index:29;">
-                                <div id="RYqgipvROuCQgkdI" style="padding-top:7.47384557%;transform:rotate(0deg);">
-                                    <div id="IQVW0njgND2xgExv"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><svg
-                                            id="UtfmqqO8FHciBehl" viewBox="0 0 77.3709 5.7826"
-                                            style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url(&#39;data:image/png;base64,&#39;);">
-                                            <g id="QhmMiLMdSh9l9DxJ" style="transform:scale(1, 1);">
-                                                <path id="PLQ1WIyMp3HM6Fzs"
-                                                    d="M2.891289,0 L74.47956061,0 C76.07637543,0 77.37084961,1.29447418 77.37084961,2.891289 L77.37084961,2.891289 C77.37084961,4.48810382 76.07637543,5.78257799 74.47956061,5.78257799 L2.891289,5.78257799 C1.29447418,5.78257799 0,4.48810382 0,2.891289 L0,2.891289 C0,1.29447418 1.29447418,0 2.891289,0 Z"
-                                                    style="fill:#ababab;opacity:1.0;"></path>
-                                            </g>
-                                        </svg></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
+                
             </div>
         </section>
         <script src="./menu_files/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js.download" async=""
@@ -13752,7 +13521,6 @@
     </script>
     <style>
         .footer-overflow-container {
-            overflow-x: auto;
             display: flex;
             background-color: #000000;
         }

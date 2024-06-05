@@ -53,4 +53,23 @@ class MenuController extends Controller
         return view('beranda1', compact('menus'));
     }
 
+    public function showMakanan()
+    {
+        $menus = Menu::where('jenis', 'makanan')->get();
+        return view('menu1', compact('menus'));
+    }
+
+    public function showMinuman()
+    {
+        $menus = Menu::where('jenis', 'minuman')->get();
+        return view('menu_minuman', compact('menus'));
+    }
+
+    public function showDetail($id_menu)
+    {
+        $menus = Menu::find($id_menu); // Mengambil data menu berdasarkan ID
+        return view('deskripsimenu', compact('menus'));
+    }
+
+
 }

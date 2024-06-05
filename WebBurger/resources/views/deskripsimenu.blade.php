@@ -13202,12 +13202,12 @@
                                                         style="clip-path:path(&#39;M3.34184934,0 L60.65815066,0 C61.54446421,0 62.39447667,0.35208669 63.02119499,0.97880501 63.64791331,1.60552333 64,2.45553579 64,3.34184934 L64,60.65815066 C64,61.54446421 63.64791331,62.39447667 63.02119499,63.02119499 62.39447667,63.64791331 61.54446421,64 60.65815066,64 L3.34184934,64 C2.45553579,64 1.60552333,63.64791331 0.97880501,63.02119499 0.35208669,62.39447667 0,61.54446421 0,60.65815066 L0,3.34184934 C0,2.45553579 0.35208669,1.60552333 0.97880501,0.97880501 1.60552333,0.35208669 2.45553579,0 3.34184934,0 Z&#39;);">
                                                         <div id="jlo7Q6aeJglNqp4P"
                                                             style="transform: scale(1, 1); transform-origin: 32px 32px; animation: auto ease 0s 1 normal none running none;">
-                                                            <img src="./deskripsi_menu_files/e60f39fd2af17313df137e18914da264.png"
+                                                        
+                                                            <img src="data:image/jpeg;base64,{{ $menus->gambar }}" alt="{{ $menus->nama }}"
                                                                 loading="lazy"
-                                                                srcset="images/05931b90972703401e11e8e87ebf40fa.png 302w, images/e60f39fd2af17313df137e18914da264.png 604w"
-                                                                sizes="(max-width: 375px) 117.06903353vw, (min-width: 375.05px) and (max-width: 480px) 94.9998975vw, (min-width: 480.05px) and (max-width: 768px) 59.37493594vw, (min-width: 768.05px) and (max-width: 1024px) 44.53120195vw, (min-width: 1024.05px) 33.38210161vw"
                                                                 style="transform:translate(-15.62130178px, 0px) rotate(0deg);transform-origin:47.62130178px 32px;width:95.24260355px;height:64px;display:block;opacity:1.0;object-fit:fill;">
-                                                        </div>
+                                                           
+                                                                </div>
                                                     </div>
                                                 </foreignobject>
                                                 <path id="zq0A9M4OkjAalSfR"
@@ -13225,9 +13225,8 @@
                                 <div id="tYSFaR5buFbsGhJ7"
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="f5obn7bvvVjyNweE"
-                                        style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.38661397em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                        <span id="AFUr8YuwngMQJz3e" style="color:#000000;">Burger King
-                                            Premium</span><br></p>
+                                        style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.38661397em;text-align:leftr;text-transform:none;letter-spacing:0em;">
+                                        <span id="AFUr8YuwngMQJz3e" style="color:#000000;">{{$menus->nama}}</span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -13237,8 +13236,8 @@
                                 <div id="yHDsAbWEOReBJGMc"
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="WvSC4Fg88taozNR6"
-                                        style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.39537629em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                        <span id="A85jjxxVzifTEgI4" style="color:#000000;">Rp. 20.000,-</span><br></p>
+                                        style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.39537629em;text-align:left;text-transform:none;letter-spacing:0em;">
+                                        <span id="A85jjxxVzifTEgI4" style="color:#000000;">{{$menus->harga}}</span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -13292,10 +13291,11 @@
                                         style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                                         <div id="bTKNZBhAYJtoYEQH"
                                             style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
+                                            
                                             <p id="hnKTv1SZP3Gx9OUW"
                                                 style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37921523em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                <span id="PhDgIE1WG7QmSrzO" style="color:#ffffff;">MASUKKAN
-                                                    PESANAN</span><br></p>
+                                                <a href="#"  data-id-menu="{{ $menus->id_menu }}">
+                                                <span id="PhDgIE1WG7QmSrzO" style="color:#ffffff;">MASUKKAN PESANAN</span><br></p></a>
                                         </div>
                                     </div>
                                 </div>
@@ -13308,8 +13308,7 @@
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="lG33q6qqKLCN6xNl"
                                         style="color:#000000;font-family:YALBs4GWnJw-0;line-height:1.39660562em;text-align:justify;text-transform:none;letter-spacing:0em;">
-                                        <span id="WEpRuJn21arU6Qyi" style="color:#000000;">Deskripsi menu, bla, bla,
-                                            bla</span><br></p>
+                                        <span id="WEpRuJn21arU6Qyi" style="color:#000000;">{{$menus->deskripsi}}</span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -13348,7 +13347,8 @@
                                         style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
                                         <p id="B8hG4NZ0N1E8hMIk"
                                             style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37921523em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                            <span id="YkDjJhJudn1rH9LD" style="color:#ffffff;">KEMBALI</span><br></p>
+                                            <a href="{{ url()->previous() }}" class="btn btn-primary">
+                                            <span id="YkDjJhJudn1rH9LD" style="color:#ffffff;">KEMBALI</span></a><br></p>
                                     </div>
                                 </div>
                             </div>
@@ -14222,6 +14222,41 @@
                 /*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/
             </style>
         </template></div>
+                
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const tombolPesanan = document.getElementById('tombolPesanan');
+                let jumlahPesanan = 0;
+
+                tombolPesanan.addEventListener('click', function(event) {
+                    event.preventDefault(); // Mencegah perilaku default
+                    jumlahPesanan++;
+                    const menuId = this.getAttribute('data-id-menu');
+                    simpanPesanan(menuId, jumlahPesanan);
+                });
+            });
+
+            function simpanPesanan(menuId, jumlah) {
+                fetch('/pesan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                    },
+                    body: JSON.stringify({ menu_id: menuId, jumlah: jumlah })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Pesanan berhasil disimpan:', data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+</script>
+
+
+
 </body>
 
 </html>

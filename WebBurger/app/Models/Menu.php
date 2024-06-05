@@ -9,10 +9,12 @@ class Menu extends Model
 {
     use HasFactory;
     protected $table ="menu";
+    protected $primaryKey = 'id_menu';
 
     public $timestamps = false;
 
     protected $fillable = [
+        'id_menu',
         'jenis',
         'nama',
         'harga',

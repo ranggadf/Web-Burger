@@ -1035,10 +1035,6 @@
                 position: relative;
             }
 
-            #UzYTAvvyajEW9i5L {
-                grid-area: 8 / 4 / 9 / 13;
-                position: relative;
-            }
 
             #lT2cdYJkS3KmxJUA {
                 grid-area: 10 / 5 / 11 / 14;
@@ -3478,11 +3474,6 @@
 
             #HIXAvSWD9Fg3V90L {
                 grid-area: 6 / 3 / 7 / 14;
-                position: relative;
-            }
-
-            #UzYTAvvyajEW9i5L {
-                grid-area: 8 / 7 / 9 / 11;
                 position: relative;
             }
 
@@ -5927,10 +5918,6 @@
                 position: relative;
             }
 
-            #UzYTAvvyajEW9i5L {
-                grid-area: 8 / 6 / 9 / 12;
-                position: relative;
-            }
 
             #lT2cdYJkS3KmxJUA {
                 grid-area: 10 / 7 / 11 / 13;
@@ -8373,10 +8360,6 @@
                 position: relative;
             }
 
-            #UzYTAvvyajEW9i5L {
-                grid-area: 9 / 5 / 11 / 9;
-                position: relative;
-            }
 
             #lT2cdYJkS3KmxJUA {
                 grid-area: 8 / 11 / 10 / 15;
@@ -10821,6 +10804,7 @@
             #UzYTAvvyajEW9i5L {
                 grid-area: 8 / 6 / 11 / 10;
                 position: relative;
+                scrollbar-width: none;
             }
 
             #lT2cdYJkS3KmxJUA {
@@ -13081,97 +13065,101 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div id="SidvocyqkANxLkGY" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
                 <div id="YItYsaDTTXqOng4S">
-                <section>
-                <div id="fZBly1GDuAXyKUNs" style="display:grid;position:relative;">
-                        <div id="FwCkKKES5NsZaxsb" style="z-index:15;">
-                            <div id="yurCMLhKHksE0Bfn" style="padding-top:115.23109244%;transform:rotate(0deg);">
-                                <div id="nfCSz5vRsOJtoKZ5"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="yqOuuzAMbmW2L7wj" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="vm4O4D1ttcGoJbmf"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="V909z7D8LjIHIckq"
-                                                style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./beranda_files/8b07c36502f16c947277f547db865ff4.png"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                    <section>
+                        <div id="fZBly1GDuAXyKUNs" style="display:grid;position:relative;">
+                            <div id="FwCkKKES5NsZaxsb" style="z-index:15;">
+                                <div id="yurCMLhKHksE0Bfn" style="padding-top:115.23109244%;transform:rotate(0deg);">
+                                    <div id="nfCSz5vRsOJtoKZ5"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                        <div id="yqOuuzAMbmW2L7wj" style="width:100%;height:100%;opacity:1.0;">
+                                            <div id="vm4O4D1ttcGoJbmf"
+                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                <div id="V909z7D8LjIHIckq"
+                                                    style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
+                                                    <img src="{{asset('./beranda_files/8b07c36502f16c947277f547db865ff4.png')}}"
+                                                        loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="UtUeBZKG8QnYNo6T" style="z-index:16;">
-                            <div id="o7CVcRqrz4fuP35L" style="padding-top:106.72546858%;transform:rotate(0deg);">
-                                <div id="JANzndExdfFlQC28"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="Tc2UQRvgjp2s2fuf" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="IhF11D7XmdgG2jyC"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="dTBqqgjrz3fuPyf3"
-                                                style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./beranda_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                            <div id="UtUeBZKG8QnYNo6T" style="z-index:16;">
+                                <div id="o7CVcRqrz4fuP35L" style="padding-top:106.72546858%;transform:rotate(0deg);">
+                                    <div id="JANzndExdfFlQC28"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                        <div id="Tc2UQRvgjp2s2fuf" style="width:100%;height:100%;opacity:1.0;">
+                                            <div id="IhF11D7XmdgG2jyC"
+                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                <div id="dTBqqgjrz3fuPyf3"
+                                                    style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
+                                                    <img src="{{asset('./beranda_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png')}}"
+                                                        loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="Mr7kdAmytHq0sDWm" style="z-index:19;">
-                            <div id="qDZzEXGNJaxMlZAK"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="FaFf6i3o0oYJfGpF"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="DE2VjyeJWo8ju6oW"
-                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                        <a href="welcome"><span id="WkrxFqM5iss4nvYA" style="color:#000000;">Beranda</span>
-                                        </a><span id="UbW87A5KpNKwHRxz" style="color:#000000;"> </span><br></p>
+                            <div id="Mr7kdAmytHq0sDWm" style="z-index:19;">
+                                <div id="qDZzEXGNJaxMlZAK"
+                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                    <div id="FaFf6i3o0oYJfGpF"
+                                        style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                        <p id="DE2VjyeJWo8ju6oW"
+                                            style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:left;text-transform:none;letter-spacing:0em;">
+                                            <a href="welcome"><span id="WkrxFqM5iss4nvYA"
+                                                    style="color:#000000;">Beranda</span>
+                                            </a><span id="UbW87A5KpNKwHRxz" style="color:#000000;"> </span><br>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="ypz1lGOTLitqkG4r" style="z-index:17;">
-                            <div id="Pl0xfd0sj5dmQWhQ" style="padding-top:104.048583%;transform:rotate(0deg);">
-                                <div id="cFsBm8uUmEj4wzhl"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="YWOw1MYhnkYKzzPP" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="wUuRnE3fElPrqcEw"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="z740TyNIMVgZmc3M"
-                                                style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./beranda_files/8af212645911fe2ab1ddb20a7d0d7cbc.png"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                            <div id="ypz1lGOTLitqkG4r" style="z-index:17;">
+                                <div id="Pl0xfd0sj5dmQWhQ" style="padding-top:104.048583%;transform:rotate(0deg);">
+                                    <div id="cFsBm8uUmEj4wzhl"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                        <div id="YWOw1MYhnkYKzzPP" style="width:100%;height:100%;opacity:1.0;">
+                                            <div id="wUuRnE3fElPrqcEw"
+                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                <div id="z740TyNIMVgZmc3M"
+                                                    style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
+                                                    <img src="{{asset('./beranda_files/8af212645911fe2ab1ddb20a7d0d7cbc.png')}}"
+                                                        loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="bqRCLwIRZMUfqYxy" style="z-index:20;">
-                            <div id="QKCyNLfe9FnyfKuS"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="KSNV01Bb8WiiXfZj"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="VPx1GL5znuDaDvNd"
-                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809332em;text-align:justify;text-transform:none;letter-spacing:0em;">
-                                        <a href="struk"> <span id="EBQDfCVtR6tWueIK" style="color:#000000;">Struk</span><br></a></p>
+                            <div id="bqRCLwIRZMUfqYxy" style="z-index:20;">
+                                <div id="QKCyNLfe9FnyfKuS"
+                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                    <div id="KSNV01Bb8WiiXfZj"
+                                        style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                        <p id="VPx1GL5znuDaDvNd"
+                                            style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809332em;text-align:justify;text-transform:none;letter-spacing:0em;">
+                                            <a href="struk"> <span id="EBQDfCVtR6tWueIK"
+                                                    style="color:#000000;">Struk</span><br></a>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+
+
                         </div>
-                        
-                        
-                    </div>
-                </section>
-                    
+                    </section>
+
                 </div>
                 <section>
-                    
+
                 </section>
                 <div id="j4HAISEQgskOMReb">
                     <div id="zwz3ZYOZSlOPH7BU" style="display:grid;position:relative;">
@@ -13262,11 +13250,12 @@
                                     <p id="nRkEqYfYqNMhEwZc"
                                         style="color:#5c392c;font-family:YAD0xLc7TF0-2;line-height:1.39952752em;text-align:center;text-transform:none;letter-spacing:0em;">
                                         <span id="n1z0JkoxWtF2X33w" style="color:#5c392c;">Pesan apa hari
-                                            ini?</span><br></p>
+                                            ini?</span><br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div id="Tz20IwU1ArT5vM2a" style="z-index:9;">
                             <div id="BEsUYwTN3gdRONSr" style="padding-top:92.96703297%;transform:rotate(0deg);">
                                 <div id="Es0PMnI7A4GZUCU4"
@@ -13276,9 +13265,10 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="p8qqhmHZDm0x7XaM"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <a href="makanan"> <img src="./beranda_files/099ad18ff83e3483ac82ff71f4bf30b3.png"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></a>
+                                                <a href="makanan"> <img
+                                                        src="{{asset('./beranda_files/099ad18ff83e3483ac82ff71f4bf30b3.png')}}"
+                                                        loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -13294,9 +13284,10 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="HZR4y1gjoVW541AF"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                 <a href="minuman"><img src="./beranda_files/b209eb33c6bcc479e5cde8eb2305cf49.png"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></a>
+                                                <a href="minuman"><img
+                                                        src="{{asset('./beranda_files/b209eb33c6bcc479e5cde8eb2305cf49.png')}}"
+                                                        loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -13313,35 +13304,36 @@
                             <p id="lReAZl7ZVK39Cb91"
                                 style="color:#000000;font-family:YAFdJt8dAY0-0;line-height:1.39733905em;text-align:center;text-transform:none;letter-spacing:0em;">
                                 <span id="ReRP4DsC6oaz6JpH" style="color:#000000;font-weight:700;">Menu
-                                    Populer</span><br></p>
+                                    Populer</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                
-                <div id="UzYTAvvyajEW9i5L" style="display : grid; grid-auto-flow: column; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; overflow-x: auto; white-space: nowrap; width: 1500px;">
-                 @foreach($menus as $menu)
-                    <div id="QhOlLBGVuF5uXmVJ" style="padding-top:54.14038441%;transform:rotate(0deg); position: relative;">
-                        <div id="pytPbzdkbK6Gftab" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                
-                                @if($menu->gambar)
-                                    <img src="data:image/jpeg;base64,{{ $menu->gambar }}" alt="{{ $menu->nama }}" style="display: block; border: 1px solid black; width: 300px; height: 200px;"/>
-                                @endif
-                                </div>
-                    </div>
+
+                <div id="UzYTAvvyajEW9i5L"
+                    style="display : flex; flex-wrap: nonwrap; overflow-x: auto; max-width: 1120px; width: 2000px;">
+                    @foreach($menus as $menu)
+                        <a href="{{ route('menu.detail', ['id_menu' => $menu->id_menu]) }}">
+
+                            @if($menu->gambar)
+                                <img src="data:image/jpeg;base64,{{ $menu->gambar }}" alt="{{ $menu->nama }}"
+                                    style="display: block; border: 1px solid black;border-radius: 10px; width: 300px; height: 200px; margin-right: 20px" />
+                            @endif
+                        </a>
                     @endforeach
                 </div>
-                
+
                 <div id="bo5EXenuHBldW2p0" style="'.$st.'">
                     <div id="YvwHSbcpVS3EsS3m"
                         style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="Ug5hAl4dmyMo6nni"
                             style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
 
         </section><a id="page-2" aria-hidden="true" style="visibility:hidden;"></a>
         <script src="./beranda_files/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js.download"
@@ -13909,10 +13901,7 @@
                 order: -1;
             }
 
-            @supports
-
-            (padding: env(safe - area - inset - bottom))
-                {
+            @supports (padding: env(safe - area - inset - bottom)) {
                 .footer-container {
                     padding: 16px 16px calc(16px + env(safe-area-inset-bottom)) 16px;
                 }
@@ -14206,7 +14195,8 @@
 
                 /*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/
             </style>
-        </template></div>
+        </template>
+    </div>
 </body>
 
 </html>
