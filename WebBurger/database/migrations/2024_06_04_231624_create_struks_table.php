@@ -15,7 +15,14 @@ return new class extends Migration
     {
         Schema::create('struks', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('menu_id');
+            $table->integer('jumlah');
+            $table->decimal('total', 10, 2);
+            $table->decimal('total_bayar', 10, 2);
             $table->timestamps();
+
+            // Menambahkan foreign key constraint
+            $table->foreign('menu_id')->references('id')->on('menus');
         });
     }
 

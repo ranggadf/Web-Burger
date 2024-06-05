@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Menu;
+use App\Models\Struk;
 
 class MenuController extends Controller
 {
@@ -70,6 +71,8 @@ class MenuController extends Controller
         $menus = Menu::find($id_menu); // Mengambil data menu berdasarkan ID
         return view('deskripsimenu', compact('menus'));
     }
+
+    
 
 
 }

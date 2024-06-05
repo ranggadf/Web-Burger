@@ -3,17 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Struk;
+use App\Models\Menu;
 
 class StrukController extends Controller
 {
     public function tambahPesanan(Request $request)
     {
         $request->validate([
-            'id_menu' => 'required|exists:menu,menu_id',
+            'id_menu' => 'required|exists:menu,id_menu',
             'jumlah' => 'required|integer|min:1'
         ]);
 
         $menu = Menu::find($request->id_menu);
+
+        if (!$menu) {
+            return response()->json(['error' => 'Menu not found'], 404);
+        }
+
         $total = $menu->harga * $request->jumlah;
 
         $struk = new Struk();
@@ -33,7 +40,5 @@ class StrukController extends Controller
 
         return response()->json(['message' => 'Pesanan berhasil ditambahkan', 'total_bayar' => $totalBayar]);
     }
-
-
 
 }

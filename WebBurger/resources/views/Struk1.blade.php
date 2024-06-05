@@ -15312,7 +15312,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="Q1T7EW6wOS8kiTgy"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./Struk_files/8b07c36502f16c947277f547db865ff4.png"
+                                                <img src="{{asset('./Struk_files/8b07c36502f16c947277f547db865ff4.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
@@ -15330,7 +15330,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="xW3lvE9RESXTSOG7"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./Struk_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png"
+                                                <img src="{{asset('./Struk_files/7d4fbb08bfd75b1661fd4e7862dfe3da.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
@@ -15345,7 +15345,7 @@
                                 <div id="nSW019krHMEYeBw4"
                                     style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
                                     <p id="TosdmePIelsyI0ex"
-                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                        style="color:#000000;font-family:YACgEVY5j_w-0;line-height:1.39809392em;text-align:left;text-transform:none;letter-spacing:0em;">
                                         <a href="welcome"><span id="XtSVOgTLXBE51koV"
                                                 style="color:#000000;">Beranda</span></a><span id="zJO3mXYPj9t97PMU"
                                                 style="color:#000000;"> </span><br></p>
@@ -15361,7 +15361,7 @@
                                             style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                                             <div id="SByzUyxBgseRlHMf"
                                                 style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-                                                <img src="./Struk_files/8af212645911fe2ab1ddb20a7d0d7cbc.png"
+                                                <img src="{{asset('./Struk_files/8af212645911fe2ab1ddb20a7d0d7cbc.png')}}"
                                                     loading="lazy"
                                                     style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>

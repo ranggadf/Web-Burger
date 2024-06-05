@@ -4,6 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--<base href="/ukuran-asli-pesan-apa-hari-ini/">--><!--<base href=".">-->
     <base href=".">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13291,11 +13292,12 @@
                                         style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                                         <div id="bTKNZBhAYJtoYEQH"
                                             style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:center;width:100%;height:100%;">
-                                            
-                                            <p id="hnKTv1SZP3Gx9OUW"
-                                                style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37921523em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                <a href="#"  data-id-menu="{{ $menus->id_menu }}">
-                                                <span id="PhDgIE1WG7QmSrzO" style="color:#ffffff;">MASUKKAN PESANAN</span><br></p></a>
+                                           
+                                            <button class="tombolPesanan" data-id-menu="{{ $menus->id_menu }}">
+                                                    <p id="hnKTv1SZP3Gx9OUW" style="color:#ffffff;font-family:YALBs4GWnJw-0;line-height:1.37921523em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                                        <span id="PhDgIE1WG7QmSrzO" style="color:#ffffff;">MASUKKAN PESANAN</span>
+                                                    </p>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -14224,36 +14226,38 @@
         </template></div>
                 
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const tombolPesanan = document.getElementById('tombolPesanan');
-                let jumlahPesanan = 0;
+    document.addEventListener('DOMContentLoaded', function() {
+        const tombolPesanan = document.querySelectorAll('.tombolPesanan');
 
-                tombolPesanan.addEventListener('click', function(event) {
-                    event.preventDefault(); // Mencegah perilaku default
-                    jumlahPesanan++;
-                    const menuId = this.getAttribute('data-id-menu');
-                    simpanPesanan(menuId, jumlahPesanan);
-                });
+        tombolPesanan.forEach(button => {
+            button.addEventListener('click', function(event) {
+                event.preventDefault(); // Mencegah perilaku default
+
+                const menuId = this.getAttribute('data-id-menu');
+                simpanPesanan(menuId);
             });
+        });
+    });
 
-            function simpanPesanan(menuId, jumlah) {
-                fetch('/pesan', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                    body: JSON.stringify({ menu_id: menuId, jumlah: jumlah })
-                })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Pesanan berhasil disimpan:', data);
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
-            }
+    function simpanPesanan(menuId) {
+        fetch('/pesan', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: JSON.stringify({ menu_id: menuId })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Pesanan berhasil disimpan:', data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
 </script>
+
 
 
 
